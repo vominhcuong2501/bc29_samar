@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAMAR</title>
+    <!-- FONT AWESOME copy link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- FONT GOOGLE copy link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&family=Redressed&family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- SLICKS:add vào do đã tải về -->
+    <link rel="stylesheet" href="./libs/slicks/slick.css" />
+    <link rel="stylesheet" href="./libs/slicks/slick-theme.css" />
+
+    <!-- FANCYBOX -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./libs/slicks/fancybox/jquery.fancybox.css"
+    />
+
+    <!-- SWIPER  -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
+    <!-- vào trang animate style lấy link  -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header id="header">
+      <div class="header__scroll"></div>
+      <div class="header__content">
+        <!-- Logo -->
+        <div class="logo">
+          <a href="#" class="wow animate__animated animate__fadeInUp"><img src="./Samar/logo-2.png" alt="Logo" /></a>
+        </div>
+        <!-- NAVIGATION -->
+        <nav class="header__navbar">
+          <ul>
+              <li class="header__dropdown">
+                  <div class="dropdown_content">
+                      <a href="#">
+                          <span class="dropdown_title">Home</span>
+                          <i class="fa fa-chevron-down"></i>
+                      </a>
+                      <div class="dropdown__menu">
+                          <ul class="dropdown__items">
+                              <li><a href="#">Home 1</a></li>
+                              <li><a href="#">Home 2</a></li>
+                              <li><a href="#">Home 3</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </li>
+              <li class="header__dropdown">
+                  <div class="dropdown_content">
+                      <a href="#">
+                          <span class="dropdown_title">Pages</span>
+                          <i class="fa fa-chevron-down"></i>
+                      </a>
+                      <div class="dropdown__menu">
+                          <ul class="dropdown__items">
+                              <li>
+                                  <a href="#">
+                                      <span>About Us</span>
+                                      <i class="fa fa-angle-right"></i>
+                                  </a>
+                                  <div class="dropdown__submenu">
+                                      <ul class="dropdown__subitems">
+                                          <li><a href="#">About Us 1</a></li>
+                                          <li><a href="#">About Us 2</a></li>
+                                          <li><a href="#">About Us 3</a></li>
+                                      </ul>
+                                  </div>
+                              </li>
+                              <li><a href="#">
+                                      <span>FAQ</span>
+                                      <i class="fa fa-angle-right"></i>
+                                  </a>
+                                  <div class="dropdown__submenu">
+                                      <ul class="dropdown__subitems">
+                                          <li><a href="#">FAQ 1</a></li>
+                                          <li><a href="#">FAQ 2</a></li>
+                                          <li><a href="#">FAQ 3</a></li>
+                                      </ul>
+                                  </div>
+                              </li>
+                              <li><a href="#">
+                                      <span>Pricing Table</span>
+                                      <i class="fa fa-angle-right"></i>
+                                  </a>
+                                  <div class="dropdown__submenu">
+                                      <ul class="dropdown__subitems">
+                                          <li><a href="#">Pricing Table 1</a></li>
+                                          <li><a href="#">Pricing Table 2</a></li>
+                                          <li><a href="#">Pricing Table 3</a></li>
+                                      </ul>
+                                  </div>
+                              </li>
+                              <li><a href="#">Team</a></li>
+                              <li><a href="#">Coming Soon</a></li>
+                              <li><a href="#">Error 404</a></li>
+                              <li><a href="#">Site Down</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </li>
+              <li class="header__dropdown">
+                  <div class="dropdown_content">
+                      <a href="#">
+                          <span>Services</span>
+                          <i class="fa fa-chevron-down"></i>
+                      </a>
+                      
+                      <div class="dropdown__menu">
+                          <ul class="dropdown__items">
+                              <li><a href="#">Services</a></li>
+                              <li><a href="#">Services Details</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </li>
+              <li class="header__dropdown">
+                  <div class="dropdown_content">
+                      <a href="#">
+                          <span>Post Layout</span>
+                          <i class="fa fa-chevron-down"></i>
+                      </a>
+                      
+                      <div class="dropdown__menu">
+                          <ul class="dropdown__items">
+                              <li><a href="#">Post Standard</a></li>
+                              <li><a href="#">Post Left SideBar</a></li>
+                              <li><a href="#">Post Header Images</a></li>
+                              <li><a href="#">Post Slide Show</a></li>
+                              <li><a href="#">Post Slide Images</a></li>
+                              <li><a href="#">Post Gallery</a></li>
+                              <li><a href="#">Post Gallery Art</a></li>
+                              <li><a href="#">Post Link</a></li>
+                              <li><a href="#">Post Audio</a></li>
+                              <li><a href="#">Post Video</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </li>
+              <li class="header__dropdown">
+                  <div class="dropdown_content">
+                      <a href="#">
+                          <span>Blog</span>
+                          <i class="fa fa-chevron-down"></i>
+                      </a>
+                      
+                      <div class="dropdown__menu">
+                          <ul class="dropdown__items">
+                              <li><a href="#">Blog Grid 2</a></li>
+                              <li><a href="#">Large Left Side Bar</a></li>
+                              <li><a href="#">Large Right Side Bar</a></li>
+                              <li><a href="#">Blog Detailsr</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </li>
+              <li class="header__dropdown">
+                  <div class="dropdown_content">
+                      <a href="#">
+                          <span>Contact Us</span>
+                          <i class="fa fa-chevron-down"></i>
+                      </a>
+                      
+                      <div class="dropdown__menu">
+                          <ul class="dropdown__items">
+                              <li><a href="#">Contact Us 1</a></li>
+                              <li><a href="#">Contact Us 2</a></li>
+                              <li><a href="#">Contact Us 3</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </li>
+              <li><a class="btn btn__menu" href="#">GET A QUOTE</a></li>
+          </ul>
+      </nav>
+        </nav>
+      </div>
+    </header>
+    <!-- END HEADER  -->
+
+    <!-- PAGES -->
+    <section>
+      <div class="pages ">
+        <div class="pages__top "></div>
+        <div class="pages__content">
+          <div class="pages__left">
+            <h6 class="wow animate__animated animate__fadeInUp">We are the best</h6>
+            <h1 class="wow animate__animated animate__fadeInUp">
+              Freelance Product <br />
+              Designer Running
+            </h1>
+            <p class="wow animate__animated animate__fadeInUp">
+              We develop the relationships that underpin the next phase in your
+              <br />
+              organisation’s growth.
+            </p>
+            <ul  class="wow animate__animated animate__fadeInUp">
+              <li><i class="fas fa-check"></i>Master's degree in designing</li>
+              <li><i class="fas fa-check"></i>Outstanding mobile design</li>
+            </ul>
+            <a class="btn btn__pages wow animate__animated animate__fadeInUp" href="#">GET STARTED</a>
+          </div>
+          <div class="pages__right wow animate__animated animate__zoomIn">
+            <div class="img__icon">
+              <img src="./Samar/pic1.png" />
+            </div>
+            <div class="img__user">
+              <img  src="./Samar/pic3_1.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END PAGES  -->
+
+    <!-- SERVICE -->
+    <section class="service">
+      <div class="service__title">
+        <h6 class="wow animate__animated animate__fadeInUp">What We Do Best</h6>
+        <h1 class="wow animate__animated animate__fadeInUp">Our Digital Services</h1>
+      </div>
+      <div class="service__content">
+        <div class="service__list">
+          <div class="service__item wow animate__animated animate__fadeInUp">
+            <div class="service__thumb ">
+              <img src="./Samar/pic1_3.jpg" alt="" />
+            </div>
+            <div class="service__text">
+              <h2>Web Development</h2>
+              <p>
+                  Vestibulum a efficitur ex. Ut iaculis dapibus iaculis.
+                  Praesent lacus magna, rhoncus quis magna quis.
+              </p>            
+            </div>
+          </div>
+          <div class="service__item wow animate__animated animate__fadeInUp">         
+            <div class="service__thumb">
+              <img src="./Samar/pic2_2.jpg" alt="" />
+            </div>
+            <div class="service__text">
+              <h2>Strategy & Research</h2>
+              <p>
+                  Vestibulum a efficitur ex. Ut iaculis dapibus iaculis.
+                  Praesent lacus magna, rhoncus quis magna quis.
+              </p>          
+            </div>
+          </div>
+          <div class="service__item wow animate__animated animate__fadeInUp">           
+            <div class="service__thumb">
+              <img src="./Samar/pic3_2.jpg" alt="" />
+            </div>
+            <div class="service__text">
+              <h2>Growth Tracking</h2>
+              <p>
+                  Vestibulum a efficitur ex. Ut iaculis dapibus iaculis.
+                  Praesent lacus magna, rhoncus quis magna quis.
+              </p>             
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END SERVICE  -->
+
+    <!-- WEBSITE -->
+    <section class="website">
+      <div class="website__thumb wow animate__animated animate__bounceInLeft">
+        <div class="website__shadow"></div>
+        <img src="./Samar/pic1.jpg" alt="" />
+      </div>
+      <div class="website__content wow animate__animated animate__bounceInRight">
+        <h6>About Us</h6>
+        <h1>
+          Build Your <br />
+          Business Website <br />
+          Better
+        </h1>
+        <p>
+          Proin laoreet leo vel enim gravida, at porttitor metus ultricies. Cras
+          eu velit enim. Vivamus blandit, dolor ut aliquet rutrum, ex elit
+          mattis sapien, non molestie felis neque et nulla. Sed euismod turpis
+          id nibh suscipit semper. Pellentesque dapibus risus arcu.
+        </p>
+        <ul>
+          <li>
+            <i class="fas fa-check"></i>We support programs that create
+            advancement opportunities for people.
+          </li>
+          <li>
+            <i class="fas fa-check"></i>Get a view of events and trends. Be
+            updated on our recent news.
+          </li>
+          <li>
+            <i class="fas fa-check"></i>Finally, it all comes down to people.
+            Creating a winning team.
+          </li>
+          <li>
+            <i class="fas fa-check"></i>Get a view of events and trends. Be
+            updated on our recent news.
+          </li>
+        </ul>
+        <a class="btn btn__website" href="#">LEARN MORE</a>
+      </div>
+    </section>
+    <!-- END WEBSITE -->
+
+    <!-- NUMBER -->
+    <section class="number">
+      <div class="number__list  wow animate__animated animate__zoomIn">
+        <div class="number__item">
+          <i class="fas fa-laugh-beam"></i><br>
+          <span class="counter">18</span><span>MI</span>
+          <p>Satisfied Clients</p>
+        </div>
+        <div class="number__item">
+          <i class="fas fa-tv"></i><br>
+          <span class="counter">20</span><span>MI</span>
+          <p>Project Completed</p>
+        </div>
+        <div class="number__item">
+          <i class="fas fa-rocket"></i><br>
+          <span class="counter">30</span><span>MI</span>
+          <p>Project Lunched</p>
+        </div>
+        <div class="number__item">
+          <i class="fas fa-fan"></i><br>
+          <span class="counter">50</span>
+          <p>Years Completed</p>
+        </div>
+      </div>
+    </section>
+    <!-- END NUMBER -->
+
+    <!-- STORY -->
+    <section class="story">
+      <div class="story__content">
+        <div class="story__list">
+          <div class="story__title wow animate__animated animate__fadeInUp">
+            <h6>Our Features</h6>
+            <h1>
+              Behind The Story <br />
+              Of Samar Agency
+            </h1>
+          </div>
+          <div class="story__item wow animate__animated animate__bounceInLeft">
+            <div class="story__icon">
+              <i class="fas fa-brain"></i>
+            </div>
+            <div class="story__text">
+              <h3>Idea & Analysis Gathering</h3>
+              <p>
+                Maecenas laoreet efficitur sagittis. Aliquam <br />
+                eleifend nisl leo, sit amet consequat.
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="story__item item-1 wow animate__animated animate__bounceInLeft">
+            <div class="story__icon">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <div class="story__text">
+              <h3>Design & Developing</h3>
+              <p>
+                Maecenas laoreet efficitur sagittis. Aliquam <br />
+                eleifend nisl leo, sit amet consequat.
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="story__item wow animate__animated animate__bounceInLeft">
+            <div class="story__icon">
+              <i class="fas fa-fighter-jet"></i>
+            </div>
+            <div class="story__text">
+              <h3>Testing & Lunching</h3>
+              <p>
+                Maecenas laoreet efficitur sagittis. Aliquam <br />
+                eleifend nisl leo, sit amet consequat.
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <div class="story__img">
+          <img src="./Samar/pic3.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- END STORY  -->
+
+    <!-- WORK -->
+    <section class="work">
+      <div class="wow animate__animated animate__fadeInUp work__title ">
+        <h6>Portfolio</h6>
+        <h1>Our Latest Work</h1>
+      </div>
+      <div class="work__list">
+        <div class= "wow animate__animated animate__fadeInUp work__item item-1 ">
+          <img src="./Samar/pic1_2.jpg" alt="" />
+          <div class="work__overlay">
+            <div class="work__icon">
+              <a href="#"><i class="fas fa-plus"></i></a>
+            </div>
+            <div class="work__text">
+              <h2>Software Landing</h2>
+              <p>By Jhone Doe</p>
+            </div>
+          </div>
+        </div>
+        <div class="wow animate__animated animate__fadeInUp work__item item-2  ">
+          <img src="./Samar/pic2_1.jpg" alt="" />
+          <div class="work__overlay">
+            <div class="work__icon">
+              <a href="#"><i class="fas fa-plus"></i></a>
+            </div>
+            <div class="work__text">
+              <h2>Software Landing</h2>
+              <p>By Jhone Doe</p>
+            </div>
+          </div>
+        </div>
+        <div class="  wow animate__animated animate__fadeInUp work__item item-3">
+          <img src="./Samar/pic3_1.jpg" alt="" />
+          <div class="work__overlay">
+            <div class="work__icon">
+              <a href="#"><i class="fas fa-plus"></i></a>
+            </div>
+            <div class="work__text">
+              <h2>Software Landing</h2>
+              <p>By Jhone Doe</p>
+            </div>
+          </div>
+        </div>
+        <div class=" wow animate__animated animate__fadeInUp work__item item-4 ">
+          <img src="./Samar/pic4.jpg" alt="" />
+          <div class="work__overlay">
+            <div class="work__icon">
+              <a href="#"><i class="fas fa-plus"></i></a>
+            </div>
+            <div class="work__text">
+              <h2>Software Landing</h2>
+              <p>By Jhone Doe</p>
+            </div>
+          </div>
+        </div>
+        <div class="  wow animate__animated animate__fadeInUp work__item item-5">
+          <img src="./Samar/pic5.jpg" alt="" />
+          <div class="work__overlay">
+            <div class="work__icon">
+              <a href="#"><i class="fas fa-plus"></i></a>
+            </div>
+            <div class="work__text">
+              <h2>Software Landing</h2>
+              <p>By Jhone Doe</p>
+            </div>
+          </div>
+        </div>
+        <div class="wow animate__animated animate__fadeInUp work__item item-6  ">
+          <img src="./Samar/pic6.jpg" alt="" />
+          <div class="work__overlay">
+            <div class="work__icon">
+              <a href="#"><i class="fas fa-plus"></i></a>
+            </div>
+            <div class="work__text">
+              <h2>Software Landing</h2>
+              <p>By Jhone Doe</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END WORK -->
+
+    <!-- PLAN -->
+    <section id="plan">
+      <div class="wow animate__animated animate__fadeInUp plan__title" id="plan__title">
+        <h6>Choose Your Plan</h6>
+        <h1>Choose Your Plan</h1>
+        <div class="plan__period" id="btnPlanPrice">
+          <span class="plan__month" id="plan__month">MONTHLY</span>
+          <span class="plan_year" id="plan__year">YEARLY</span>
+        </div>
+      </div>
+        <div class="plan__list">
+          <div class="wow animate__animated animate__fadeInUp plan__item">
+            <div class="bg"></div>
+            <div class="plan_price">
+              <h1>Basic Plan</h1>
+              <div class="plan__thumb">
+                <img src="./Samar/pic1_3.jpg" alt="" />
+              </div>
+              <div class="plan__text">
+                <p class="plan_price-month"><span>$49</span>/Month</p>
+                <p class="plan_price-year"><span>$449</span>/Year</p>
+                <ul>
+                  <li><i class="fas fa-check"></i>Graphic Design</li>
+                  <li><i class="fas fa-check"></i>Web Design</li>
+                  <li><i class="fas fa-check"></i>UI/UX</li>
+                  <li><i class="fas fa-check"></i>HTML/CSS</li>
+                  <li><i class="fas fa-check"></i>SEO Marketing</li>
+                  <li><i class="fas fa-check"></i>Business Analysis</li>
+                </ul>
+                <a class="btn btn__plan" href="#">Start Now</a>
+              </div>
+            
+            </div>
+          </div>
+          <div class="wow animate__animated animate__fadeInUp plan__item">
+            <div class="bg"></div>
+            <div class="plan_price">
+              <h1>Standart Plan</h1>
+              <div class="plan__thumb">
+                <img src="./Samar/pic2_2.jpg" alt="" />
+              </div>
+              <div class="plan__text">
+                <p class="plan_price-month"><span>$99</span>/Month</p>
+                <p class="plan_price-year"><span>$1099</span>/Year</p>
+                <ul>
+                  <li><i class="fas fa-check"></i>Graphic Design</li>
+                  <li><i class="fas fa-check"></i>Web Design</li>
+                  <li><i class="fas fa-check"></i>UI/UX</li>
+                  <li><i class="fas fa-check"></i>HTML/CSS</li>
+                  <li><i class="fas fa-check"></i>SEO Marketing</li>
+                  <li><i class="fas fa-check"></i>Business Analysis</li>
+                </ul>
+                <a class="btn btn__plan" href="#">Start Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="wow animate__animated animate__fadeInUp plan__item">
+            <div class="bg"></div>
+            <div class="plan_price">
+              <h1>Premium Plan</h1>
+              <div class="plan__thumb">
+                <img src="./Samar/pic3_2.jpg" alt="" />
+              </div>
+              <div class="plan__text">
+                <p class="plan_price-month"><span>$149</span>/Month</p>
+                <p class="plan_price-year"><span>$1249</span>/Year</p>
+                <ul>
+                  <li><i class="fas fa-check"></i>Graphic Design</li>
+                  <li><i class="fas fa-check"></i>Web Design</li>
+                  <li><i class="fas fa-check"></i>UI/UX</li>
+                  <li><i class="fas fa-check"></i>HTML/CSS</li>
+                  <li><i class="fas fa-check"></i>SEO Marketing</li>
+                  <li><i class="fas fa-check"></i>Business Analysis</li>
+                </ul>
+                <a class="btn btn__plan" href="#">Start Now</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    <!-- END PLAN -->
+
+    <!-- CLIENTS -->
+    <section class="clients">
+      <div class="clients__title">
+        <h6>Testimonial</h6>
+        <h1>What Our Clients Says</h1>
+      </div>
+      <div class="testimonial-content">
+        <!-- Swiper -->
+        <div class="swiper-container testimonial-thumbs">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testimonial-pic">
+                <img src="./Samar/pic1_4.jpg" alt="">
+                <div class="shape-bx"></div>
+              </div>    
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-pic">
+                <img src="./Samar/pic2_3.jpg" alt="">
+                <div class="shape-bx"></div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-pic">
+                <img src="./Samar/pic3_3.jpg" alt="">
+                <div class="shape-bx"></div>
+              </div>
+            </div>
+          </div>     
+        </div>     
+        <div class="swiper-container testimonial-comment">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testimonial-text">
+                <strong class="testimonial-name">Cak Dikin 1</strong>
+                <span class="testimonial-position text-primary m-b20">CEO &amp; Founder </span>
+                <p>Duis feugiat est tincidunt ligula maximus convallis. Aenean ultricies, mi non vestibulum auctor, erat tortor porttitor ipsum, nec dictum tortor sem eget nunc. Etiam sed facilisis erat.</p>
+              </div>     
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-text">
+                <strong class="testimonial-name">Cak Dikin 2</strong>
+                <span class="testimonial-position text-primary m-b20">CEO &amp; Founder </span>
+                <p>Duis feugiat est tincidunt ligula maximus convallis. Aenean ultricies, mi non vestibulum auctor, erat tortor porttitor ipsum, nec dictum tortor sem eget nunc. Etiam sed facilisis erat.</p>
+              </div>      
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-text">
+                <strong class="testimonial-name">Cak Dikin 3</strong>
+                <span class="testimonial-position text-primary m-b20">CEO &amp; Founder </span>
+                <p>Duis feugiat est tincidunt ligula maximus convallis. Aenean ultricies, mi non vestibulum auctor, erat tortor porttitor ipsum, nec dictum tortor sem eget nunc. Etiam sed facilisis erat.</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <!-- END CLIENTS -->
+
+    <!-- BLOG -->
+    <section class="blog">
+      <div class=" wow animate__animated animate__fadeInUp blog__title">
+        <h6>Our Blog</h6>
+        <h1>Latest News & Blog</h1>
+      </div>
+      <div class="blog__slider">
+        <div class="blog__container">
+          <div class="blog__item">
+            <div class="blog__img">
+              <a href="#"><img src="./Samar/pic3.jpg" alt=""></a>
+            </div>
+            <div class="blog__text">
+              <a href="#"><h4>Maecenas maximus augue eget libero dictum.</h4></a>
+              <p>Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum ac aliquam. Phasellus justo quam.</p>
+            </div>
+            <ul>
+              <li class="cadena">25 JUNE 2021</li>
+              <li><i class="far fa-user-circle"></i>
+              BY <a href="#"> JOHN DOE</a></li>
+              <li><i class="far fa-comment-dots"></i>
+              <a href="#"class="coment">COMMENT</a> <span>15</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="blog__container">
+          <div class="blog__item">
+            <div class="blog__img">
+              <a href="#"><img src="./Samar/pic2.jpg" alt=""></a>
+            </div>
+            <div class="blog__text">
+              <a href="#"><h4>Maecenas maximus augue eget libero dictum.</h4></a>
+              <p>Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum ac aliquam. Phasellus justo quam.</p>
+            </div>
+            <ul>
+              <li class="cadena">25 JULY 2021</li>
+              <li><i class="far fa-user-circle"></i>
+              BY <a href="#"> JOHN DOE</a></li>
+              <li><i class="far fa-comment-dots"></i>
+              <a href="#"class="coment">COMMENT</a> <span>15</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="blog__container">
+          <div class="blog__item">
+            <div class="blog__img">
+              <a href="#"><img src="./Samar/pic1_1.jpg" alt=""></a>
+            </div>
+            <div class="blog__text">
+              <a href="#"><h4>Maecenas maximus augue eget libero dictum.</h4></a>
+              <p>Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum ac aliquam. Phasellus justo quam.</p>
+            </div>
+            <ul>
+              <li class="cadena">25 MARCH 2021</li>
+              <li><i class="far fa-user-circle"></i>
+              BY <a href="#"> JOHN DOE</a></li>
+              <li><i class="far fa-comment-dots"></i>
+              <a href="#" class="coment">COMMENT</a> <span>15</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="blog__container">
+          <div class="blog__item">
+            <div class="blog__img">
+              <a href="#"><img src="./Samar/pic3.jpg" alt=""></a>
+            </div>
+            <div class="blog__text">
+              <a href="#"><h4>Maecenas maximus augue eget libero dictum.</h4></a>
+              <p>Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum ac aliquam. Phasellus justo quam.</p>
+            </div>
+            <ul>
+              <li class="cadena">25 JUNE 2021</li>
+              <li><i class="far fa-user-circle"></i>
+              BY <a href="#"> JOHN DOE</a></li>
+              <li><i class="far fa-comment-dots"></i>
+              <a href="#"class="coment">COMMENT</a> <span>15</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="blog__container">
+          <div class="blog__item">
+            <div class="blog__img">
+              <a href="#"><img src="./Samar/pic2.jpg" alt=""></a>
+            </div>
+            <div class="blog__text">
+              <a href="#"><h4>Maecenas maximus augue eget libero dictum.</h4></a>
+              <p>Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum ac aliquam. Phasellus justo quam.</p>
+            </div>
+            <ul>
+              <li class="cadena">25 JULY 2021</li>
+              <li><i class="far fa-user-circle"></i>
+              BY <a href="#"> JOHN DOE</a></li>
+              <li><i class="far fa-comment-dots"></i>
+              <a href="#"class="coment">COMMENT</a> <span>15</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="blog__container">
+          <div class="blog__item">
+            <div class="blog__img">
+              <a href="#"><img src="./Samar/pic1_1.jpg" alt=""></a>
+            </div>
+            <div class="blog__text">
+              <a href="#"><h4>Maecenas maximus augue eget libero dictum.</h4></a>
+              <p>Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum ac aliquam. Phasellus justo quam.</p>
+            </div>
+            <ul>
+              <li class="cadena">25 MARCH 2021</li>
+              <li><i class="far fa-user-circle"></i>
+              BY <a href="#"> JOHN DOE</a></li>
+              <li><i class="far fa-comment-dots"></i>
+              <a href="#" class="coment">COMMENT</a> <span>15</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END BLOG -->
+
+    <!-- TAB -->
+    <section class="tab">
+      <div class=" wow animate__animated animate__fadeInUp tab__content">
+          <div class="tab__item">
+            <div class="tab__img">
+              <img class="tab__main" src="./Samar/logo-pink1.png" alt="">
+              <img class="tab__hover" src="./Samar/logo-light1.png" alt="">
+            </div>
+          </div>
+          <div class="tab__item">
+            <div class="tab__img">
+              <img class="tab__main" src="./Samar/logo-pink2.png" alt="">
+              <img class="tab__hover" src="./Samar/logo-light2.png" alt="">
+            </div>
+          </div>
+          <div class="tab__item">
+            <div class="tab__img">
+              <img class="tab__main" src="./Samar/logo-pink3.png" alt="">
+              <img class="tab__hover" src="./Samar/logo-light3.png" alt="">
+            </div>
+          </div>
+          <div class="tab__item">
+            <div class="tab__img">
+              <img class="tab__main" src="./Samar/logo-pink4.png" alt="">
+              <img class="tab__hover" src="./Samar/logo-light4.png" alt="">
+            </div>
+          </div>
+          <div class="tab__item">
+            <div class="tab__img">
+              <img class="tab__main" src="./Samar/logo-pink5.png" alt="">
+              <img class="tab__hover" src="./Samar/logo-light5.png" alt="">
+            </div>
+          </div>
+          <div class="tab__item">
+            <div class="tab__img">
+              <img class="tab__main" src="./Samar/logo-pink6.png" alt="">
+              <img class="tab__hover" src="./Samar/logo-light6.png" alt="">
+            </div>
+          </div>
+          <div class="tab__item">
+            <div class="tab__img">
+              <img class="tab__main" src="./Samar/logo-pink1.png" alt="">
+              <img class="tab__hover" src="./Samar/logo-light1.png" alt="">
+            </div>
+          </div>
+          <div class="tab__item">
+            <div class="tab__img">
+              <img class="tab__main" src="./Samar/logo-pink2.png" alt="">
+              <img class="tab__hover" src="./Samar/logo-light2.png" alt="">
+            </div>
+          </div>
+          <div class="tab__item">
+            <div class="tab__img">
+              <img class="tab__main" src="./Samar/logo-pink3.png" alt="">
+              <img class="tab__hover" src="./Samar/logo-light3.png" alt="">
+            </div>
+          </div>
+          <div class="tab__item">
+            <div class="tab__img">
+              <img class="tab__main" src="./Samar/logo-pink4.png" alt="">
+              <img class="tab__hover" src="./Samar/logo-light4.png" alt="">
+            </div>
+          </div>
+          <div class="tab__item">
+            <div class="tab__img">
+              <img class="tab__main" src="./Samar/logo-pink5.png" alt="">
+              <img class="tab__hover" src="./Samar/logo-light5.png" alt="">
+            </div>
+          </div>
+          <div class="tab__item">
+            <div class="tab__img">
+              <img class="tab__main" src="./Samar/logo-pink6.png" alt="">
+              <img class="tab__hover" src="./Samar/logo-light6.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END TAB -->
+
+    <!-- SEARCH -->
+    <section class="wow animate__animated animate__fadeInUp search ">
+      <div class="search__content">
+        <div class="search__text">
+          <h2>Subscribe To Our Newsletter</h2>
+        </div>
+        <div class="search__btn">
+          <input type="text" placeholder="Your Email Address">
+          <a href=""><i class="far fa-paper-plane"></i></a>
+        </div>
+      </div>
+    </section>
+    <!-- END SEARCH  -->
+
+    <!-- FOOTER  -->
+    <footer>
+      <div class="footer__top">
+        <img class="footer__bg" src="./Samar/pattern2.png" alt="">
+        <div class="footer__container">
+          <div class="footer__list">
+            <div class="wow animate__animated animate__fadeInUp footer__item ">
+              <div class="footer__logo">
+                <img src="./Samar/logo-white.png" alt="">
+              </div>
+              <ul >
+                <li><i class="fas fa-phone"></i>
+                  <p>
+                    <a href="tel: 18001234567">1800-123-4567</a>
+                    <br/>
+                    <a href="tel: +919876543210">+91 987-654-3210</a>
+                  </p>
+                </li>
+                <li>
+                  <i class="fas fa-envelope"></i>
+                  <p>
+                    <a href="mailto: services@gmail.com">services@gmail.com</a>
+                    <br>
+                    <a href="mailto: info@example.com">info@example.com</a>
+                  </p>
+                </li>
+                <li>
+                  <i class="fas fa-map-marker-alt"></i>
+                  <p>Demo Address #8901 Marmora Road <br> Ho Chi Minh City, Vietnam</p>
+                </li>
+              </ul>
+            </div>
+            <div class="wow animate__animated animate__fadeInUp footer__item">
+              <h2>Our links</h2>
+              <ul>
+                <li>
+                  <i class="fas fa-angle-right"></i>
+                  <a href="#">Home</a>
+                </li>
+                <li>
+                  <i class="fas fa-angle-right"></i>
+                  <a href="#">About Us</a>
+                </li>
+                <li>
+                  <i class="fas fa-angle-right"></i>
+                  <a href="#">Services</a>
+                </li>
+                <li>
+                  <i class="fas fa-angle-right"></i>
+                  <a href="#">Team</a>
+                </li>
+                <li>
+                  <i class="fas fa-angle-right"></i>
+                  <a href="#">Blog</a>
+                </li>
+              </ul>
+            </div>
+            <div class="wow animate__animated animate__fadeInUp footer__item ">
+              <h2>Our Services</h2>
+              <ul>
+                <li>
+                  <i class="fas fa-angle-right"></i>
+                  <a href="#">Strategy & Research</a>
+                </li>
+                <li>
+                  <i class="fas fa-angle-right"></i>
+                  <a href="#">Web Development</a>
+                </li>
+                <li>
+                  <i class="fas fa-angle-right"></i>
+                  <a href="#">Web Solution</a>
+                </li>
+                <li>
+                  <i class="fas fa-angle-right"></i>
+                  <a href="#">Digital Marketing</a>
+                </li>
+                <li>
+                  <i class="fas fa-angle-right"></i>
+                  <a href="#">App Design</a>
+                </li>
+              </ul>
+            </div>
+            <div class="wow animate__animated animate__fadeInUp footer__item ">
+              <h2>Other links</h2>
+              <ul>
+                <li>
+                  <i class="fas fa-angle-right"></i>
+                  <a href="#">FAQ</a>
+                </li>
+                <li>
+                  <i class="fas fa-angle-right"></i>
+                  <a href="#">Portfolio</a>
+                </li>
+                <li>
+                  <i class="fas fa-angle-right"></i>
+                  <a href="#">Privacy Policy</a>
+                </li>
+                <li>
+                  <i class="fas fa-angle-right"></i>
+                  <a href="#">Team & Conditions</a>
+                </li>
+                <li>
+                  <i class="fas fa-angle-right"></i>
+                  <a href="#">Support</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="footer__list">
+          <p>Copyright © 2021 <span>DexignZone</span>. All rights reserved.</p>
+          <ul class="wow animate__animated animate__fadeInUp">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="special ">
+      <a href="#" class="backtotop cd-top text-replace js-cd-top"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <div class="special cart__center">
+      <a href="#"><i class="fas fa-cart-plus"></i></a>
+    </div>
+    <div class="special headphone__center">
+      <a href="#"><i class="fas fa-headphones-alt"></i></a>
+    </div>
+    <div class="special arrow__center">
+      <a href="#"><i class="fas fa-arrow-right"></i></a>
+    </div>
+    <div class="special set__center">
+      <a href="#"><i class="fas fa-cogs"></i></a>
+    </div>
+    <!-- vào jquery cdn lấy link -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- add slicks do đã tải về -->
+    <script src="./libs/slicks/slick.min.js"></script>
+    <!-- SWIPER  -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- vào slick chọn kiểu muốn làm copy về -->
+     <script>
+      $(document).ready(function () {
+        $(".blog__slider").slick({
+          arrows:false,
+          dots: false,
+          infinite: true,
+          autoplay:true,
+          speed: 500,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+
+        });
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $(".tab__content").slick({
+          arrows:false,
+          dots: false,
+          infinite: true,
+          autoplay:true,
+          speed: 500,
+          slidesToShow: 6,
+          slidesToScroll: 1,
+        });
+      });
+    </script>
+    <script>
+      var testimonialThumbs = new Swiper(".testimonial-thumbs", {
+          spaceBetween: 10,
+          slidesPerView: 3,
+          centeredSlides: true,
+          freeMode: false,
+          autoplay: true,
+          loop: true,
+          speed: 3000
+        });
+      var testimonialContent = new Swiper(".testimonial-comment", {
+          spaceBetween: 10,
+          autoplay: true,
+          loop: true,
+          speed: 3000,
+          thumbs: {
+            swiper: testimonialThumbs
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true
+          }
+        });
+
+    </script>
+    <!-- Vaof fancybox lay link -->
+    <script src="./libs/slicks/fancybox/jquery.fancybox.js"></script>
+    <script>
+      $('[data-fancybox="gallery"]').fancybox({
+        // Options will go here
+      });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./libs/countupjs/jquery.countup.min.js"></script>
+    <script>
+      $('.counter').countUp();
+    </script>
+
+    <!-- vào trang BackToTop tải về rồi add link -->
+    <script src="./libs/backtotop/util.js"></script>
+    <script src="./libs/backtotop/main.js"></script>
+
+    <!-- vào trang wowjs tải về rồi add link -->
+    <script src="./libs/wowjs/wow.min.js"></script>
+    <script>
+      new WOW().init();
+      </script>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
